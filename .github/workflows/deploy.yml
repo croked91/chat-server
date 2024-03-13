@@ -9,7 +9,7 @@ on:
 env:
   REGISTRY: "cr.selcloud.ru/croked"
   IMAGE_NAME: "chat-server"
-  CONTAINER_NAME: "crud-server-container"
+  CONTAINER_NAME: "chat-server-container"
 
 jobs:
   image-build-and-push:
